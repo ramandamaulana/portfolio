@@ -51,14 +51,14 @@ body {
   margin: 100px;
   border-radius: 30px;
 }
-.form-label{
+.form-label {
   color: #8f929e;
 }
-.contact h3{
+.contact h3 {
   font-size: 60px;
 }
 
-.contact .form-control{
+.contact .form-control {
   border: none;
   height: 50px;
 }
@@ -86,6 +86,15 @@ footer ul a:hover {
   .about {
     padding: 0px !important;
   }
+
+  .contact {
+    border: 1px solid;
+    padding: 10px;
+    margin: auto 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+  }
+
 
   footer ul .h5 {
     margin-left: -30px;
