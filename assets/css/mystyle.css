@@ -3,6 +3,22 @@ body {
   background-color: #eeeff1;
 }
 
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  /* sticky or fixed are fine */
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  /* background when scroll is in the top */
+  transition: background 0.5s; /* control how smooth the background changes */
+}
+
+nav.scrolled {
+  background: #eeeff1;
+}
+
 .card {
   border: none;
   cursor: pointer;
@@ -12,7 +28,7 @@ body {
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
   text-decoration: none;
-  color: #535354 ;
+  color: #535354;
   font-weight: bold;
 }
 
